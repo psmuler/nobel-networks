@@ -31,6 +31,8 @@ EHESS x Heidelberg x Kyoto トライラテラルプロジェクト キックオ�
 https://www.kura.kyoto-u.ac.jp/event/20241012/
 
 
+研究支援やイベント等の情報は、以下のSNSで発信しています。
+是非ともご登録ください。
 ### KURAの情報発信
 Facebook  
 https://www.facebook.com/kuraoffice
