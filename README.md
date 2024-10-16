@@ -1,6 +1,14 @@
 # nobel-networks
 Is scientific elite true? 
-A research project submitted at National RA Council.
+
+> ・1960年代初期の数年の間、そこにはメンター・チェーンが完全な形で存在しており、彼らは全員が互いにつながっていた<br>
+> ・弟子たちが師から学ぶものは技術の知識ではなく、「思考のスタイル」だ<br>
+> ・弟子たちが師から学ぶものは技術の知識ではなく、「思考のスタイル」だと、あるノーベル化学賞受賞者が語ったことを記している。つまり「問題の解決」と同じくらい「問題の発見」が重要だった。将来のノーベル賞受賞者たちは、社会学用語でいうならば、意義があることや、重要であること、正しい問題であることの意味を理解するように社会化されていったのである。<br>
+> ・メンター・チェーンの何人かは、その台本から外れたことをさまざまに主張するかもしれない。しかし、そうであってもだれもが教えの本質を心に留めているのである。<br>
+> ・持っているものはさらに豊かになるが、持っていないものは、持っているものまでも取り上げられる<br>
+> ・親として子供を育てるには、メンターとして学生を、学部のスタッフを、あるいは同じ領域の専門家を育てるのを同じ取り組みが求められる。...いずれにしても、これらの活動はすべてが楽しくなければならない。そうでなければ、何のための苦労だろうか？<br>
+> -- "Scientific Elite" Harriet Zuckerman
+
 
 <!-- ここから下、「ここまで編集しないでください」までの部分は一切編集しないでください。編集すると目次が壊れ、復元できない可能性があります。詳しくは目次の自動生成「Doctoc」のドキュメントを参照してください：https://github.com/thlorenz/doctoc#specifying-location-of-toc-->
 
@@ -8,17 +16,39 @@ A research project submitted at National RA Council.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **目次**
 
-- [Code and Data](#code-and-data)
-- [先行研究](#%E5%85%88%E8%A1%8C%E7%A0%94%E7%A9%B6)
-- [国際研究推進に関するKURAの取り組み](#%E5%9B%BD%E9%9A%9B%E7%A0%94%E7%A9%B6%E6%8E%A8%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8Bkura%E3%81%AE%E5%8F%96%E3%82%8A%E7%B5%84%E3%81%BF)
+  - [Code and Data](#code-and-data)
+  - [Mento-Trainee Relationship](#mento-trainee-relationship)
+  - [国際研究推進に関するKURAの取り組み](#%E5%9B%BD%E9%9A%9B%E7%A0%94%E7%A9%B6%E6%8E%A8%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8Bkura%E3%81%AE%E5%8F%96%E3%82%8A%E7%B5%84%E3%81%BF)
+  - [参考文献](#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE)
+- [Acknowledgement](#acknowledgement)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 <!-- ここまで編集しないでください-->
 
 ## Code and Data
+分析は３段階に分かれています。
+文献情報の
+- [Academic Family Tree データの名寄せのための姓名抽出](https://colab.research.google.com/drive/1P6JktackRU3yh_8g5AzJxIDAG379QrJO#scrollTo=Ad0aRp4IKa9B)
+- [AFTデータとScopusデータの名寄せ](https://colab.research.google.com/drive/1OJuc9U3vO-aWrjgsw7edxOMHGjx4mSkL#scrollTo=-xwju017R3Rn)
+- [学術家系図における距離の分析](https://colab.research.google.com/drive/1yarvFnakQ6FdO0TB0Ztyo4sGZCNudIoa)
 
+現在コードはクローズドデータに依拠しているため実行はできませんが、オープンデータに更新次第内容を更新します。m
 
+各データは以下から取得しています。
+- [Academic Family Tree Data](https://zenodo.org/records/10717537)
+- Scopus - 商用データのため、非公開
+Scopusデータでは公開ができず再現性が担保できないため、代わりにOpenAlexへの切り替えを予定しています。
+しばらくお待ちください。
 
+## Mento-Trainee Relationship 
+[A. 国外移動プレミアム ]国外に移動した研究者の方が研究業績が高い。日本を含む東アジア圏では、国外に出た研究者は、移動前比で3割ほど被引用数が伸び、一方、海外からきた研究者は業績が下がる傾向にある
+
+[B. “Chaperone”効果 ]著名な研究者と共著することで、著名な論文誌に通る確率が上がる。近年になるほどその傾向が強い。
+
+[C. Peer Effect ]Chaperoneに類似しているが、優秀な研究者を雇用すると、他の研究者の業績も 5-8% 程度伸び、さらに同等の研究者を雇用できる確率が高まる。
+
+[D. Traineeの成功に最も影響するMentorの要素 ]優秀なMentorのもとで研究するほど、Traineeの業績も上がりやい。また、PhDの時のmentorよりも、ポスドクの時の mentorの方がキャリア成功への影響が大きく、PhDとポスドクのテーマは離れている方が良い。
+神経医学を含む生物医学分野の分析結果である点には注意が必要。
 
 ## 国際研究推進に関するKURAの取り組み
 京都大学 学術研究展開センター（KURA）では、研究の国際化促進のため、以下のような取り組みを行っています。
@@ -102,3 +132,9 @@ https://www.kura.kyoto-u.ac.jp/event/20241012/
 </div></body>
 </html>
 <!-- bib.html end -->
+
+# Acknowledgement
+This is a research project submitted at National RA Council.
+Chiaki Miura (UTokyo) - Coceive, Conduct experiment
+Yoshiyasu Watanabe (KURA) - 
+Tsubasa Sakamoto (KURA) - Analyze in-depth documentation of Nobel award and laureates 
